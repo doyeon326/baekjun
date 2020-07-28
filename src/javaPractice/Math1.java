@@ -9,7 +9,6 @@ interface Math1 {
 	static void main(String[] a) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testcase=Integer.parseInt(br.readLine());
-		int count=0;
 		for(int i=0; i<testcase; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			int start = Integer.parseInt(st.nextToken());
@@ -25,6 +24,7 @@ interface Math1 {
 			}
 			
 			System.out.println(n);
+			System.out.println("hello222");
 		}
 		
 	}
